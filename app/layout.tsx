@@ -10,7 +10,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Waleed Ahmad | Full Stack Engineer",
-  description: "Modern full-stack developer portfolio showcasing projects, skills, and professional experience.",
+  description:
+    "Full-stack engineer specializing in modern web applications. Explore my portfolio featuring production-ready projects, technical expertise, and professional achievements in full-stack development.",
   icons: {
     icon: "/waleed.png",
   },
@@ -23,7 +24,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} bg-white dark:bg-black transition-colors duration-300 antialiased`}>
+      <body
+        className={`${inter.className} bg-white dark:bg-black transition-colors duration-300 antialiased`}
+      >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           <main>{children}</main>
