@@ -16,7 +16,7 @@ const Hero = () => {
       className="relative min-h-screen flex flex-col items-center   overflow-hidden"
     >
       {/* 1. BACKGROUND IMAGE */}
-      <div className="absolute inset-0 z-0 flex justify-center pointer-events-none overflow-hidden -mt-30  lg:-mt-38">
+      <div className="absolute inset-0 z-0 flex justify-center pointer-events-none overflow-hidden -mt-50  lg:-mt-38">
         {/* Main Image */}
         <motion.img
           initial={{ opacity: 0, scale: 0.95 }}
