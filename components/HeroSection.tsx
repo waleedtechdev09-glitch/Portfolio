@@ -13,10 +13,10 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col items-center   overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center overflow-hidden bg-black isolate"
     >
       {/* 1. BACKGROUND IMAGE */}
-      <div className="absolute inset-0 z-0 flex justify-center pointer-events-none overflow-hidden -mt-75  lg:-mt-38">
+      <div className="absolute inset-0 z-0 flex justify-center items-start pointer-events-none overflow-hidden pt-10 sm:pt-6 md:pt-0 md:-mt-[6rem] lg:-mt-[4rem] xl:-mt-[5rem]">
         {/* Main Image */}
         <motion.img
           initial={{ opacity: 0, scale: 0.95 }}
@@ -25,12 +25,14 @@ const Hero = () => {
           src="/ahmad.png"
           alt="Background Profile"
           className="
-      h-[78%] md:h-[92%] lg:h-[100%]
-      w-auto object-contain
+      h-[62vh] max-h-[620px] sm:h-[74vh] md:h-[88vh] lg:h-[78vh] xl:h-[84vh]
+      w-auto max-w-none object-contain object-[center_15%] lg:object-[center_10%] xl:object-[center_8%]
 
-       md:mt-10 lg:mt-0
+       max-md:scale-[1.08]
+       max-md:-translate-y-2
+       md:mt-10 lg:mt-0 lg:scale-[0.86] xl:scale-[0.92]
 
-      opacity-[0.18] dark:opacity-[0.26]
+      opacity-[0.16] sm:opacity-[0.18] lg:opacity-[0.12] xl:opacity-[0.14] dark:opacity-[0.26]
 
       grayscale
       contrast-[1.15]
@@ -81,7 +83,7 @@ const Hero = () => {
       <div className="absolute bottom-[10%] left-[5%] w-72 h-72 bg-cyan-500/10 blur-[120px] rounded-full" />
 
       {/* CONTENT */}
-      <div className="container mx-auto px-6 relative z-10 pt-[50vh] md:pt-[55vh]">
+      <div className="container mx-auto px-6 relative z-10 pt-[46vh] sm:pt-[48vh] md:pt-[55vh] lg:pt-[52vh] xl:pt-[54vh]">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
