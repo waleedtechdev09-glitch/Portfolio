@@ -13,20 +13,18 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col items-center bg-white dark:bg-black overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center  dark:bg-black overflow-hidden"
     >
       {/* 1. BACKGROUND IMAGE */}
-     {/* 1. BACKGROUND IMAGE */}
-<div className="absolute inset-0 z-0 flex justify-center pointer-events-none overflow-hidden -mt-38">
-
-  {/* Main Image */}
-  <motion.img
-    initial={{ opacity: 0, scale: 0.95 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 1.5, ease: "easeOut" }}
-    src="/ahmad.png"
-    alt="Background Profile"
-    className="
+      <div className="absolute inset-0 z-0 flex justify-center pointer-events-none overflow-hidden -mt-38">
+        {/* Main Image */}
+        <motion.img
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+          src="/ahmad.png"
+          alt="Background Profile"
+          className="
       h-[78%] md:h-[92%] lg:h-[100%]
       w-auto object-contain
 
@@ -42,32 +40,32 @@ const Hero = () => {
 
       transition-all duration-700
     "
-  />
+        />
 
-  {/* Professional Glow */}
-  <div
-    className="
+        {/* Professional Glow */}
+        <div
+          className="
       absolute top-[18%] left-1/2 -translate-x-1/2
       w-[500px] h-[500px]
       bg-amber-500/8
       blur-[140px]
       rounded-full
     "
-  />
+        />
 
-  {/* Cinematic Overlay */}
-  <div
-    className="
+        {/* Cinematic Overlay */}
+        <div
+          className="
       absolute inset-0
       bg-gradient-to-b
       from-white/10 via-white/40 to-white
       dark:from-black/10 dark:via-black/30 dark:to-[#020617]
     "
-  />
+        />
 
-  {/* Side Fade */}
-  <div
-    className="
+        {/* Side Fade */}
+        <div
+          className="
       absolute inset-0
       bg-gradient-to-r
       from-white dark:from-[#020617]
@@ -75,8 +73,8 @@ const Hero = () => {
       to-white dark:to-[#020617]
       opacity-70
     "
-  />
-</div>
+        />
+      </div>
 
       {/* Decorative Glow Effects */}
       <div className="absolute top-[10%] right-[5%] w-72 h-72 bg-amber-500/10 blur-[120px] rounded-full" />
@@ -92,9 +90,7 @@ const Hero = () => {
         >
           {/* Heading */}
           <h1 className="text-5xl md:text-6xl font-black lg:mt-18 leading-[1.1] tracking-tight">
-            <span className="text-slate-900 dark:text-white">
-              Hi, I'm{" "}
-            </span>
+            <span className="text-slate-900 dark:text-white">Hi, I'm </span>
 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-500 to-yellow-300 drop-shadow-[0_0_25px_rgba(251,191,36,0.5)]">
               Waleed Ahmad
@@ -121,17 +117,19 @@ const Hero = () => {
 
           {/* Description */}
           <p
-  className="
+            className="
     text-lg md:text-xl
     text-slate-700 dark:text-slate-300
     mb-12 max-w-2xl mx-auto leading-relaxed font-medium
   "
->
-  As a Full Stack Engineer specializing in the MERN stack, I build scalable, 
-  efficient, and user-focused web applications. I go beyond writing code — 
-  I design robust system architectures, optimize performance across the stack,
-   and turn complex ideas into practical, real-world solutions that align with both technical and business goals.
-</p>
+          >
+            As a Full Stack Engineer specializing in the MERN stack, I build
+            scalable, efficient, and user-focused web applications. I go beyond
+            writing code — I design robust system architectures, optimize
+            performance across the stack, and turn complex ideas into practical,
+            real-world solutions that align with both technical and business
+            goals.
+          </p>
 
           {/* Buttons */}
           <div className="flex flex-wrap gap-5 justify-center mb-8">
@@ -168,10 +166,7 @@ const Hero = () => {
                 "
               >
                 View Work
-                <FontAwesomeIcon
-                  icon={faArrowRight}
-                  className="text-xs"
-                />
+                <FontAwesomeIcon icon={faArrowRight} className="text-xs" />
               </button>
             </Link>
 
