@@ -13,10 +13,10 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col items-center  dark:bg-black overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center   overflow-hidden"
     >
       {/* 1. BACKGROUND IMAGE */}
-      <div className="absolute inset-0 z-0 flex justify-center pointer-events-none overflow-hidden -mt-38">
+      <div className="absolute inset-0 z-0 flex justify-center pointer-events-none overflow-hidden -mt-30  lg:-mt-38">
         {/* Main Image */}
         <motion.img
           initial={{ opacity: 0, scale: 0.95 }}
@@ -90,7 +90,9 @@ const Hero = () => {
         >
           {/* Heading */}
           <h1 className="text-5xl md:text-6xl font-black lg:mt-18 leading-[1.1] tracking-tight">
-            <span className="text-slate-900 dark:text-white">Hi, I&apos;m </span>
+            <span className="text-slate-900 dark:text-white">
+              Hi, I&apos;m{" "}
+            </span>
 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-500 to-yellow-300 drop-shadow-[0_0_25px_rgba(251,191,36,0.5)]">
               Waleed Ahmad
