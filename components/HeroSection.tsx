@@ -16,7 +16,7 @@ const Hero = () => {
       className="relative min-h-screen flex flex-col items-center   overflow-hidden"
     >
       {/* 1. BACKGROUND IMAGE */}
-      <div className="absolute inset-0 z-0 flex justify-center pointer-events-none overflow-hidden -mt-50  lg:-mt-38">
+      <div className="absolute inset-0 z-0 flex justify-center pointer-events-none overflow-hidden -mt-90  lg:-mt-38">
         {/* Main Image */}
         <motion.img
           initial={{ opacity: 0, scale: 0.95 }}
@@ -89,7 +89,7 @@ const Hero = () => {
           className="max-w-4xl mx-auto text-center"
         >
           {/* Heading */}
-          <h1 className="text-5xl md:text-6xl font-black lg:mt-18 leading-[1.1] tracking-tight">
+          <h1 className="text-4xl md:text-6xl font-black lg:mt-18 leading-[1.1] tracking-tight">
             <span className="text-slate-900 dark:text-white">
               Hi, I&apos;m{" "}
             </span>
@@ -120,7 +120,7 @@ const Hero = () => {
           {/* Description */}
           <p
             className="
-    text-lg md:text-xl
+    text-sm md:text-xl
     text-slate-700 dark:text-slate-300
     mb-12 max-w-2xl mx-auto leading-relaxed font-medium
   "
