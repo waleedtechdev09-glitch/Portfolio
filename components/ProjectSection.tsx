@@ -38,6 +38,16 @@ const projects: Project[] = [
 
   {
     id: "3",
+    title: "Noor-e-Quran ",
+    description:
+      "A modern Quran study platform with a user-friendly interface, featuring features like audio playback, verse search, and bookmarking.",
+    image: "/roshan.png",
+    technologies: ["Next.js", "Tailwind CSS", "Axios", "Vercel"],
+
+    liveUrl: "https://roshan-noor-e-quran.vercel.app",
+  },
+  {
+    id: "4",
     title: "Wireless Headphones ",
     description:
       "Interactive product landing page featuring smooth animations, responsive layouts, and modern UI/UX design principles.",
@@ -47,7 +57,7 @@ const projects: Project[] = [
     liveUrl: "https://wireless-headphones-deployment.vercel.app",
   },
   {
-    id: "4",
+    id: "5",
     title: "Coders Coffee Shop",
     description:
       "Interactive product landing page featuring smooth animations, responsive layouts, and modern UI/UX design principles.",

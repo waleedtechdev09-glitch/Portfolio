@@ -8,7 +8,6 @@ import {
   faDocker, 
   faAws, 
   faJs, 
-  faPython, 
   faTailwindCss,
   faDeploydog
 } from "@fortawesome/free-brands-svg-icons";

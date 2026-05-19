@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-24 h-screen mt-22 bg-slate-50 dark:bg-black relative overflow-hidden"
+      className="py-24  mt-22 bg-slate-50 dark:bg-black relative overflow-hidden"
     >
       {/* Background Decorative Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-black blur-[120px] rounded-full pointer-events-none" />
@@ -60,14 +60,14 @@ const Contact = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-5xl md:text-5xl font-black text-slate-900 dark:text-white leading-tight mb-6">
-              Let's build <br />
+              Let&apos;s build <br />
               <span className="text-amber-500 text-glow-sm">
                 something great.
               </span>
             </h2>
 
             <p className="text-slate-600 dark:text-slate-400 mb-10 text-xl max-w-md leading-relaxed">
-              I'm always open to discussing new projects, creative ideas or
+              I&apos;m always open to discussing new projects, creative ideas or
               opportunities to be part of your visions.
             </p>
           </motion.div>
