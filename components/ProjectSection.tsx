@@ -16,6 +16,23 @@ interface Project {
 const projects: Project[] = [
   {
     id: "1",
+    title: "Doctor Appointment System",
+    description:
+      "A modern doctor appointment system with user authentication, dynamic scheduling, and responsive design for seamless healthcare management.",
+    image: "/carepulse.png",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT Auth",
+    ],
+    github: "#",
+    liveUrl: "https://cardiac-doctor-appointment-system.vercel.app",
+  },
+  {
+    id: "2",
     title: "Library Management System (SaaS)",
     description:
       "Secure multi-user platform with authentication, media uploads, Cloudinary integration, and isolated user data management.",
@@ -26,7 +43,7 @@ const projects: Project[] = [
   },
 
   {
-    id: "2",
+    id: "3",
     title: " Blog Application",
     description:
       "Modern blog platform with dynamic content management, responsive UI, and optimized deployment using Next.js and MongoDB.",
@@ -37,7 +54,7 @@ const projects: Project[] = [
   },
 
   {
-    id: "3",
+    id: "4",
     title: "Noor-e-Quran ",
     description:
       "A modern Quran study platform with a user-friendly interface, featuring features like audio playback, verse search, and bookmarking.",
@@ -47,7 +64,7 @@ const projects: Project[] = [
     liveUrl: "https://roshan-noor-e-quran.vercel.app",
   },
   {
-    id: "4",
+    id: "5",
     title: "Wireless Headphones ",
     description:
       "Interactive product landing page featuring smooth animations, responsive layouts, and modern UI/UX design principles.",
@@ -57,7 +74,7 @@ const projects: Project[] = [
     liveUrl: "https://wireless-headphones-deployment.vercel.app",
   },
   {
-    id: "5",
+    id: "6",
     title: "Coders Coffee Shop",
     description:
       "Interactive product landing page featuring smooth animations, responsive layouts, and modern UI/UX design principles.",
