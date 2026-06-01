@@ -48,7 +48,13 @@ const projects: Project[] = [
     description:
       "Modern blog platform with dynamic content management, responsive UI, and optimized deployment using Next.js and MongoDB.",
     image: "/devlog.png",
-    technologies: ["Next.js", "MongoDB", "Tailwind CSS", "Vercel"],
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Tailwind CSS",
+      "Vercel",
+    ],
     github: "#",
     liveUrl: "https://next-blog-app-deployment.vercel.app",
   },
@@ -59,7 +65,7 @@ const projects: Project[] = [
     description:
       "A modern Quran study platform with a user-friendly interface, featuring features like audio playback, verse search, and bookmarking.",
     image: "/roshan.png",
-    technologies: ["Next.js", "Tailwind CSS", "Axios", "Vercel"],
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Axios", "Vercel"],
 
     liveUrl: "https://roshan-noor-e-quran.vercel.app",
   },
