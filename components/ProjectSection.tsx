@@ -114,7 +114,7 @@ const Projects = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 items-stretch">
           {projects.map((project) => (
             <motion.div
               key={project.id}
@@ -123,16 +123,17 @@ const Projects = () => {
               className="
                 group
                 bg-slate-50 dark:bg-black
-                rounded-2xl
+                rounded-md
                 overflow-hidden
                 border border-slate-200 dark:border-slate-800
                 transition-all duration-300
                 shadow-sm hover:shadow-2xl
                 hover:shadow-amber-500/10
+                flex flex-col h-full
               "
             >
-              {/* Image */}
-              <div className="relative aspect-[16/10] overflow-hidden">
+              {/* Image Container */}
+              <div className="relative aspect-[16/10] overflow-hidden flex-shrink-0">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -144,17 +145,16 @@ const Projects = () => {
                     group-hover:scale-110
                   "
                 />
-
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-70" />
               </div>
 
-              {/* Content */}
-              <div className="p-8 text-center">
+              {/* Content Wrapper */}
+              <div className="p-8 text-center flex flex-col flex-1">
                 <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">
                   {project.title}
                 </h3>
 
-                <p className="text-sm text-slate-600 dark:text-slate-400 mb-7 leading-relaxed">
+                <p className="text-sm text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
                   {project.description}
                 </p>
 
@@ -180,8 +180,8 @@ const Projects = () => {
                   ))}
                 </div>
 
-                {/* Button */}
-                <div className="flex justify-center">
+                {/* Button Container aligned to bottom */}
+                <div className="mt-auto w-full flex justify-center">
                   <Link
                     href={project.liveUrl || "#"}
                     target="_blank"
