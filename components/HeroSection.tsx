@@ -97,11 +97,11 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center max-w-md sm:max-w-none mx-auto w-full px-4 sm:px-0">
             {/* Primary CTA: Resume Button */}
             <Link
-              href="/Waleed_Ahmad_CV.pdf"
+              href="/WALEED_AHMAD.pdf"
               download="Waleed_Ahmad_Resume.pdf"
               className="
                 group w-full sm:w-auto
-                bg-gradient-to-r from-amber-500 to-orange-500
+                bg-linear-to-r from-amber-500 to-orange-500
                 hover:from-amber-400 hover:to-orange-400
                 text-white px-8 py-4 rounded-xl font-bold
                 shadow-lg shadow-amber-500/20
