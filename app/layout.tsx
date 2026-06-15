@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Full-stack engineer specializing in modern web applications. Explore my portfolio featuring production-ready projects, technical expertise, and professional achievements in full-stack development.",
   icons: {
-    icon: "/waleed.png",
+    icon: "/WALEED.png",
   },
 };
 
