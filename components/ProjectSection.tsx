@@ -71,6 +71,22 @@ const projects: Project[] = [
   },
   {
     id: "5",
+    title: "Expense Tracker",
+    description:
+      "A modern expense tracking application with a user-friendly interface, featuring features like expense categorization, budgeting, and financial reporting.",
+    image: "/expense-tracker.png",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer-Motion",
+      "Vercel",
+    ],
+
+    liveUrl: "https://expense-tracker-website-flax.vercel.app",
+  },
+  {
+    id: "6",
     title: "Wireless Headphones ",
     description:
       "Interactive product landing page featuring smooth animations, responsive layouts, and modern UI/UX design principles.",
@@ -80,7 +96,7 @@ const projects: Project[] = [
     liveUrl: "https://wireless-headphones-deployment.vercel.app",
   },
   {
-    id: "6",
+    id: "7",
     title: "Coders Coffee Shop",
     description:
       "Interactive product landing page featuring smooth animations, responsive layouts, and modern UI/UX design principles.",
