@@ -87,6 +87,22 @@ const projects: Project[] = [
   },
   {
     id: "6",
+    title: "Meal Planner",
+    description:
+      "A modern meal planning application with a user-friendly interface, featuring features like recipe suggestions, grocery lists, and nutritional tracking.",
+    image: "/meal-planner.png",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer-Motion",
+      "Vercel",
+    ],
+
+    liveUrl: "https://meal-planner-website-sooty.vercel.app",
+  },
+  {
+    id: "7",
     title: "Wireless Headphones ",
     description:
       "Interactive product landing page featuring smooth animations, responsive layouts, and modern UI/UX design principles.",
@@ -96,7 +112,7 @@ const projects: Project[] = [
     liveUrl: "https://wireless-headphones-deployment.vercel.app",
   },
   {
-    id: "7",
+    id: "8",
     title: "Coders Coffee Shop",
     description:
       "Interactive product landing page featuring smooth animations, responsive layouts, and modern UI/UX design principles.",
